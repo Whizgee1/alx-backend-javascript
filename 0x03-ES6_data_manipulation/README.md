@@ -1,1 +1,1 @@
-# 0x03-ES6_data_manipulation
+# Solutions to tasks on ES6 data manipulation

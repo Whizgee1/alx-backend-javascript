@@ -1,11 +1,6 @@
-export default function getListStudentIds(A) {
-    let ids;
-    if (Array.isArray(A) === false) {
-        ids = [];
-    } else {
-        ids = A.map((data) => {
-            return data.id;
-        })
-    }
-    return ids;
+export default function getListStudentIds(list) {
+  if (Array.isArray(list)) {
+    return list.map((obj) => obj.id);
+  }
+  return [];
 }
